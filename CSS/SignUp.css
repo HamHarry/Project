@@ -1,25 +1,27 @@
 *{ 
     margin: 0;  
     padding: 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 .BGIMG{
     width: 100%;  
     height: 100vh;  
     background-size: cover;  
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     background-position: center center;
     filter: blur(1.6px);
     position: relative;
 }
 
-.table-menu{
-    font-family: Arial, Helvetica, sans-serif;  
+.table-menu{  
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
+    color: aliceblue;
+
 }
 
 nav{
@@ -33,30 +35,10 @@ footer{
     background-color: #333333;
     color: aliceblue;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: 'Kanit', sans-serif;
     padding: 10px;
     text-transform: lowercase;
     bottom: 0;
-}
-
-a{
-    display: inline-block;
-    line-height: 25px;
-    margin: 10 15px;
-}
-
-a{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    padding: 10px 13px;
-    border-radius: 20px;
-    text-transform: uppercase;
-}
-
-a:hover{
-    color: #9c3100;
-    background: #ffc000;
-    transition: 0.2s;
 }
 
 h2{
@@ -85,11 +67,24 @@ form{
 }
 
 .container a{
-    margin: 20px;
-    color: rgb(92, 92, 92);
-    font-size: 22px; 
-    text-transform: uppercase; 
+    background-color: #ffc000; 
+    color: #9c3100;
     text-decoration: none; 
+    border: 2px solid transparent; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform 0.3s;
+    margin: 0 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    background-color: #ff5100; 
 }
 
 .BGcontainer{
@@ -115,25 +110,23 @@ input{
 }
 
 .textbox:hover{
-    transform: scale(1.2);
+    transform: scale(1.03);
     background-color: #ffc000; 
-    box-shadow: 0 0 5px #ffc000, 
-                0 0 20px #ffc000,
-                0 0 50px #ffc000;
+
 }
 
 .BGIMG{
     width: 100%;  
     height: 100vh;  
     background-size: cover;  
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     background-position: center center;
     filter: blur(1px);
     position: relative;
 }
 
 .table-menu{
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: 'Kanit', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -165,20 +158,21 @@ input{
 }
 
 .btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: aliceblue;
     background-color: #ff5100; 
-    box-shadow: 0 0 5px #ff5100, 
-                0 0 20px #ff5100,
-                0 0 50px #ff5100;
 }
 
 footer{
-    background-color: #333333;
+    background-color: rgb(175, 154, 31);
     color: aliceblue;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: 'Kanit', sans-serif;
     padding: 25px;
     text-transform: lowercase;
     bottom: 0;
+}
+
+.LOGO{
+    margin-top: 1000px;
 }

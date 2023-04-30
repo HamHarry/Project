@@ -19,7 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%;
+    width: 70%;
 }
 
 nav{
@@ -30,7 +30,7 @@ nav{
 }
 
 footer{
-    background-color: #333333;
+    background-color: rgb(26, 166, 209);
     color: aliceblue;
     text-align: center;
     font-family: 'Kanit', sans-serif;
@@ -55,7 +55,7 @@ a{
 
 a:hover{
     color: #9c3100;
-    background: #ffc000;
+    background-color: rgb(26, 166, 209);
     transition: 0.2s;
 }
 
@@ -115,8 +115,8 @@ table{
 }
 
 .btn{
-    background-color: #ffc000; 
-    color: #9c3100;
+    background-color: rgb(26, 166, 209);
+    color: #000000;
     border: 2px solid transparent; 
     font-weight: bold; 
     padding: 10px 35px;
@@ -132,5 +132,5 @@ table{
 
 .btn:hover{
     color: aliceblue;
-    background-color: #ff5100; 
+    background-color: rgb(26, 166, 209);
 }

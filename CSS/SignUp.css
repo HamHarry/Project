@@ -21,7 +21,6 @@
     transform: translate(-50%,-50%);
     width: 100%;
     color: aliceblue;
-
 }
 
 nav{
@@ -43,7 +42,7 @@ footer{
 
 h2{
     margin: 20px;
-    color: rgba(119, 0, 255, 0.616);   
+    color: rgba(0, 26, 255, 0.616);   
     font-size: 72px; 
     text-transform: uppercase; 
     font-weight: bolder;
@@ -56,7 +55,7 @@ h2{
     width: 30%;
     padding: 30px;
     border-radius: 30px;
-    background-color: rgba(255, 242, 228, 0.623);
+    background-color: rgba(150, 187, 255, 0.623);
     
 }
 
@@ -67,8 +66,8 @@ form{
 }
 
 .container a{
-    background-color: #ffc000; 
-    color: #9c3100;
+    background-color: rgb(127, 224, 253);
+    color: #000000;
     text-decoration: none; 
     border: 2px solid transparent; 
     font-weight: bold; 
@@ -82,9 +81,9 @@ form{
 }
 
 .container a:hover{
-    transform: scale(1.1);
-    color: aliceblue;
-    background-color: #ff5100; 
+    transform: scale(1.05);
+    color: #ffffff;
+    background: #8c00ff;
 }
 
 .BGcontainer{
@@ -111,7 +110,7 @@ input{
 
 .textbox:hover{
     transform: scale(1.03);
-    background-color: #ffc000; 
+    background-color: rgb(26, 166, 209);
 
 }
 
@@ -144,8 +143,8 @@ input{
 }
 
 .btn{
-    background-color: #ffc000; 
-    color: #9c3100;
+    background-color: rgb(26, 166, 209);
+    color: #000000;
     text-decoration: none; 
     border: 2px solid transparent; 
     font-weight: bold; 
@@ -159,12 +158,12 @@ input{
 
 .btn:hover{
     transform: scale(1.1);
-    color: aliceblue;
-    background-color: #ff5100; 
+    color: #ffffff;
+    background: #8c00ff;
 }
 
 footer{
-    background-color: rgb(175, 154, 31);
+    background-color: rgb(26, 166, 209);
     color: aliceblue;
     text-align: center;
     font-family: 'Kanit', sans-serif;

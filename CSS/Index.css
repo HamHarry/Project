@@ -49,7 +49,7 @@ nav{
 
 footer{
     color: rgb(0, 0, 0);
-    background-color: rgb(175, 154, 31);
+    background-color: rgb(26, 166, 209);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;  
     padding: 10px;
@@ -64,7 +64,7 @@ a{
 }
 
 a{
-    color: #ffbb00;
+    color: #00d9ff;
     font-size: 20px;
     padding: 10px 13px;
     border-radius: 20px;
@@ -73,8 +73,8 @@ a{
 }
 
 a:hover{
-    color: #9c3100;
-    background: #ffc000;
+    color: #ffffff;
+    background: #8c00ff;
     transition: 0.2s;
 }
 
@@ -83,7 +83,7 @@ a:hover{
     width: 250px;
     height: 45px;
     background-color: transparent;
-    border: 2px solid #f7fa44;
+    border: 2px solid #00ffea;
     border-radius: 6px;
     display: flex;
 }
@@ -93,23 +93,9 @@ a:hover{
     background-color: transparent;
     border: none;
     outline: none;
-    color: #ffbb00;
+    color: #00d9ff;
     font-size: 16px;
     padding-left: 10px;
-}
-
-.search input{
-    width: 40px;
-    height: 100%;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    color: #ffbb00;
-    cursor: pointer;
-}
-
-.search input::placeholder{
-    color: #ffbb00;
 }
 
 .search input button i{

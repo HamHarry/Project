@@ -1,56 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/Index.css">
-    <link rel="stylesheet" href="/CSS/nav.css">
-    <title>GenX.Co.th</title>
-</head>
-<body>
-    <div class="main">
-        <div class="submain">
-            <nav>
-                <a class="LOGO" href="/HTML/Index.html">Home</a>
-                <a class="LOG" href="/HTML/Login.html">LOGIN</a>
-                
-            </nav>
-        <div class="BGIMG"></div>
-        <div class="table-menu">
-            <table>
-                <tr>
-                    <th>
-                        <img src="/image/tesla.png" alt="Car" style="width: 50%;">
-                        <p>ปี 2019</p>
-                        <p>สี ขาว</p>
-                        <p>ระบบ เกียร์อัตโนมัติ</p>
-                        <p>จำนวน 2 ที่นั่ง</p>
-                        <p>ประเภท รถไฟฟ้า</p>
-                    </th>
-                    <th>
-                        <form action="">
-                            <br>
-                            <br>
-                            <p>ชื่อผู้จอง <input type="text" placeholder="name"></p>
-                            <p>วันที่รับรถ <input type="text" placeholder="date"></p>
-                            <br>
-                            <p>ประกันรถยนต์ 2,000 บาท</p>
-                            <br>
-                            <a href="/HTML/cars.html">กลับสู่หน้าหลัก</a>
-                        </form>
-                    </th>
-                </tr>
-            </table>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/CSS/Index.css" />
+        <link rel="stylesheet" href="/CSS/nav.css" />
+        <title>GenX.Co.th</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="submain">
+                <nav>
+                    <a class="LOGO" href="/Index.html">Home</a>
+                    <a class="LOG" href="/HTML/Login.html">LOGIN</a>
+                </nav>
+                <div class="BGIMG"></div>
+                <div class="table-menu">
+                    <table>
+                        <tr>
+                            <th>
+                                <img
+                                    src="/image/tesla.png"
+                                    alt="Car"
+                                    style="width: 50%"
+                                />
+                                <p>ปี 2019</p>
+                                <p>สี ขาว</p>
+                                <p>ระบบ เกียร์อัตโนมัติ</p>
+                                <p>จำนวน 2 ที่นั่ง</p>
+                                <p>ประเภท รถไฟฟ้า</p>
+                            </th>
+                            <th>
+                                <form id="form">
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <div class="NameCar">
+                                        <input
+                                            type="text"
+                                            value="Tesla"
+                                            id="car"
+                                        />
+                                        <input
+                                            type="text"
+                                            value="White"
+                                            id="color"
+                                        />
+                                        <input
+                                            type="text"
+                                            value="20000"
+                                            id="price"
+                                        />
+                                    </div>
+                                    <p>
+                                        ชื่อผู้จอง
+                                        <input
+                                            type="text"
+                                            placeholder="name"
+                                            id="name"
+                                        />
+                                    </p>
+                                    <p>
+                                        วันที่รับรถ
+                                        <input type="date" id="date" />
+                                    </p>
+                                    <br />
+                                    <button class="btn" type="submit">
+                                        Submit
+                                    </button>
+                                    <a href="/HTML/cars.html"
+                                        >กลับสู่หน้าหลัก</a
+                                    >
+                                </form>
+                            </th>
+                        </tr>
+                        <br>
+                        <div class="table-menu-concult">
+                            <table border="1" bordercolor="#ff0000">
+                                <thead>
+                                    <h1 class="head">Car Booking History</h1>
+                                    <tr>
+                                        <td>ชื่อผู้จอง</td>
+                                        <td>รถ</td>
+                                        <td>สี</td>
+                                        <td>วันที่</td>
+                                        <td>ราคา</td>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </table>
+                    <script src="/JS/jsonTest.js"></script>
+                </div>
+            </div>
+            <footer>
+                <p>© 2023 GenX.Car the Series</p>
+            </footer>
         </div>
-        </div>
-    <footer>
-        <p>© 2023 GenX.Car the Series</p>
-    </footer>
-    </div>
-</body>
+    </body>
 </html>

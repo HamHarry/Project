@@ -22,7 +22,7 @@
     <div class="main">
       <div class="submain">
         <nav>
-          <a class="LOGO" href="/Index.html">Home</a>
+          <link rel="stylesheet" href="/CSS/Cars.css" />
           <a class="LOG" href="/HTML/Login.html">LOGIN</a>
         </nav>
         <div class="BGIMG"></div>
@@ -30,41 +30,45 @@
           <table>
             <tr>
               <th>
-                <img src="/image/bmw.png" alt="Car" style="width: 50%" />
-                <p>ปี 2012</p>
-                <p>สี น้ำเงิน</p>
-                <p>ระบบ เกียร์อัตโนมัติ</p>
-                <p>จำนวน 2 ที่นั่ง</p>
-                <p>ประเภท รถยนต์</p>
-              </th>
-              <th>
                 <form id="form">
                   <br>
                   <br>
-                  <br>
-                  <br>
+                  <img src="/image/bmw.png" alt="bmw" style="width: 25%;">
                   <br>
                   <div class="NameCar">
                     <input type="text" value="BMW M8" id="car">
                     <input type="text" value="Blue" id="color">
                     <input type="text" value="15000" id="price">
                   </div>
-                  <p>
-                    ชื่อผู้จอง
-                    <input type="text" placeholder="name" id="name">
-                  </p>
-                  <p>วันที่รับรถ <input type="date" id="date"></p>
+                  <p>ชื่อผู้จอง<input type="text" placeholder="name" id="name"></p>
+                  <p>วันที่รับรถ<input type="date" id="date"></p>
                   <br>
                   <button class="btn" type="submit">
-                    <a href="/HTML/concult.html">Submit</a>
+                    Submit
                   </button>
                   <a href="/HTML/cars.html">กลับสู่หน้าหลัก</a>
                 </form>
-                <div id="Output"></div>
+                <div class="table-menu-concult">
+                  <table border="1" bordercolor="#ff0000">
+                      <thead>
+                          <h1 class="head">Car Booking History</h1>
+                          <tr>
+                              <td>ชื่อผู้จอง</td>
+                              <td>รถ</td>
+                              <td>สี</td>
+                              <td>วันที่</td>
+                              <td>ราคา</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        
+                      </tbody>
+                  </table>
+              </div>
               </th>
             </tr>
           </table>
-          <script src="/JS/information.js"></script>
+          <script src="/JS/jsonTest.js"></script>
         </div>
       </div>
       <footer>

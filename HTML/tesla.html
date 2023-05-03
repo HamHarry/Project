@@ -14,7 +14,7 @@
             href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="/CSS/Index.css" />
+        <link rel="stylesheet" href="/CSS/Cars.css" />
         <link rel="stylesheet" href="/CSS/nav.css" />
         <title>GenX.Co.th</title>
     </head>
@@ -30,39 +30,32 @@
                     <table>
                         <tr>
                             <th>
-                                <img
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <img
                                     src="/image/tesla.png"
                                     alt="Car"
-                                    style="width: 50%"
+                                    style="width: 30%"
                                 />
-                                <p>ปี 2019</p>
-                                <p>สี ขาว</p>
-                                <p>ระบบ เกียร์อัตโนมัติ</p>
-                                <p>จำนวน 2 ที่นั่ง</p>
-                                <p>ประเภท รถไฟฟ้า</p>
-                            </th>
-                            <th>
-                                <form id="form">
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
+                                    <br>
                                     <div class="NameCar">
                                         <input
                                             type="text"
                                             value="Tesla"
                                             id="car"
-                                        />
+                                        >
                                         <input
                                             type="text"
                                             value="White"
                                             id="color"
-                                        />
+                                        >
                                         <input
                                             type="text"
                                             value="20000"
                                             id="price"
-                                        />
+                                        >
                                     </div>
                                     <p>
                                         ชื่อผู้จอง
@@ -70,7 +63,7 @@
                                             type="text"
                                             placeholder="name"
                                             id="name"
-                                        />
+                                        >
                                     </p>
                                     <p>
                                         วันที่รับรถ
@@ -81,27 +74,28 @@
                                         Submit
                                     </button>
                                     <a href="/HTML/cars.html"
-                                        >กลับสู่หน้าหลัก</a
-                                    >
+                                        >กลับสู่หน้าหลัก
+                                    </a>
                                 </form>
+                                <div class="table-menu-concult">
+                                    <table border="1" bordercolor="#ff0000">
+                                        <thead>
+                                            <h1 class="head">Car Booking History</h1>
+                                            <tr>
+                                                <td>ชื่อผู้จอง</td>
+                                                <td>รถ</td>
+                                                <td>สี</td>
+                                                <td>วันที่</td>
+                                                <td>ราคา</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
                             </th>
                         </tr>
-                        <br>
-                        <div class="table-menu-concult">
-                            <table border="1" bordercolor="#ff0000">
-                                <thead>
-                                    <h1 class="head">Car Booking History</h1>
-                                    <tr>
-                                        <td>ชื่อผู้จอง</td>
-                                        <td>รถ</td>
-                                        <td>สี</td>
-                                        <td>วันที่</td>
-                                        <td>ราคา</td>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
                     </table>
                     <script src="/JS/jsonTest.js"></script>
                 </div>

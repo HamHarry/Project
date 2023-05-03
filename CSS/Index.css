@@ -35,16 +35,25 @@ table {
 }
 
 th {
-  width: 33.33%;
+  width: 2%;
   vertical-align: top;
 }
 
 .head{
   text-align: center;
+  font-size: 40px;
 }
 
 td {
   width: 2%;
+  vertical-align: top;
+}
+
+tbody{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  width: 33.33%;
   vertical-align: top;
 }
 
@@ -132,10 +141,13 @@ a:hover {
   font-size: 20px;
   padding: 10px 13px;
   border-radius: 20px;
+  border-color: #00d9ff;
   text-transform: uppercase;
   border-style: solid;
 }
 .btn:hover {
   color: #ffffff;
   transition: 0.2s;
+  background: #8c00ff;
 }
+
